@@ -5,6 +5,8 @@
 
 
 }
+/*base*/
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +16,7 @@
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 header .container{
     display: flex; /*flex é uma forma de alinhar os elementos em tela */
@@ -37,4 +40,25 @@ header nav a{
 
 header nav a:hover{  /* comando para executar ação quando o mouse esta sobre  */
     color: #fff;
+}
+
+/*filme princial*/
+
+.filme-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/imagens/house-of-cards3.jpg);
+    height: 480px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .desc{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
 }
