@@ -1,0 +1,40 @@
+:root{ /* declarando variáveis no CSS*/
+    --vermelho:#E50914;
+    --preta:#141414;
+    --verm : brown;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+}
+header .container{
+    display: flex; /*flex é uma forma de alinhar os elementos em tela */
+    flex-direction: row; /* valor default do flex*/
+    align-items: center; /*alinha os contéudos na vertical*/
+    justify-content: space-between; /*trabalha com a disponibilização na horizontal*/
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 2px;
+}
+
+header nav a:hover{  /* comando para executar ação quando o mouse esta sobre  */
+    color: #fff;
+}
